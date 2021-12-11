@@ -1,5 +1,8 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
+// import NumberBaseball from '';
+// import RSP from '';
+// import Lotto from '';
 
 const Games = () => {
     return (
@@ -13,4 +16,4 @@ const Games = () => {
     )
 };
 
-export default MineSearch;
+export default Games;
