@@ -5,9 +5,9 @@ const Games = () => {
     return (
         <BrowserRouter>
             <>
-                <Route path="/number-baseball" />
-                <Route path="/rock-scissors-paper" />
-                <Route path="/lotto-game" />
+                <Route path="/number-baseball" component={NumberBaseball} />
+                <Route path="/rock-scissors-paper" component={RSP} />
+                <Route path="/lotto-game" component={Lotto} />
             </>
         </BrowserRouter>
     )
