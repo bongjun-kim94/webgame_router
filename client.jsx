@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { hot } from 'react-hot-loader/root';
 
-import MineSearch from './MineSearch';
+import Games from './Games';
 
-ReactDOM.render(<MineSearch />, document.querySelector('#root'));
+const Hot = hot(Games);
+
+ReactDOM.render(<Hot />, document.querySelector('#root'));
