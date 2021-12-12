@@ -8,6 +8,7 @@ const Games = () => {
     return (
         <BrowserRouter>
             <>
+                {/* 공통인 부분 */}
                 <Link to="/number-baseball">숫자야구</Link>
                 &npsp;
                 <Link to="/rock-scissors-paper">가위바위보</Link>
